@@ -1,0 +1,19 @@
+[[package]]
+category = "main"
+description = "Python client for the Prometheus monitoring system."
+name = "prometheus-client"
+optional = false
+python-versions = "*"
+version = "0.7.1"
+
+[package.extras]
+twisted = ["twisted"]
+
+[metadata]
+content-hash = "e1c448e9e436e4afd90b2aa2de997c5f4440ebd98ff9782e08b560e202f8d783"
+python-versions = "^3.6"
+
+[metadata.files]
+prometheus-client = [
+    {file = "prometheus_client-0.7.1.tar.gz", hash = "sha256:71cd24a2b3eb335cb800c7159f423df1bd4dcd5171b234be15e3f31ec9f622da"},
+]
